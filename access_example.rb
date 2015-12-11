@@ -5,6 +5,11 @@ end
 
 accessorExample = AccessorExample.new
 
+
+params.each do |key,value|
+  accessorExample.send("#{key}=",value)
+end
+
 accessorExample.name = "Aarav"
 accessorExample.age = "1"
 
