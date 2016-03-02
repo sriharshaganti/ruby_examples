@@ -10,7 +10,7 @@ params.each do |key,value|
   accessorExample.send("#{key}=",value)
 end
 
-accessorExample.name = "Aarav"
+accessorExample.name = "gap"
 accessorExample.age = "1"
 
 
@@ -19,12 +19,6 @@ puts accessorExample.age
 
 
 
-accessorExample.name = "Dheeraj"
-accessorExample.age = "20"
-
-
-puts accessorExample.name
-puts accessorExample.age
 
 @var = accessorExample
 p(@var)
